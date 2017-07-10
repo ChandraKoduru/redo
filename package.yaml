@@ -10,3 +10,4 @@ executables:
     redo:
         source-dirs: src/
         main: Main.hs
+        dependencies: process

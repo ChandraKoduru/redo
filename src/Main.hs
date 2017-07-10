@@ -1,5 +1,8 @@
 module Main where
 
+import System.Process
+
 main :: IO ()
 main = do
-  putStrLn "hello world"
+  _ <- createProcess $ shell "sh redo.do"
+  return ()
