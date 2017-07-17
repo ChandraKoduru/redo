@@ -17,3 +17,5 @@ executable redo
   build-depends:
       base
     , process
+  other-modules:
+      Redo
